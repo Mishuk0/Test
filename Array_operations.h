@@ -66,12 +66,6 @@ namespace ArrayOperations {
     // Функция для заполнения массива случайными числами от 1 до 100. Входные данные: вектор.
     void fillArrayRandom(vector<double>& vec);
 
-    // Функция для вывода массива на экран. Входные данные: массив, длина массива.
-    void printArray(double* arr, size_t n);
-
-    // Функция для вывода массива на экран. Входные данные: вектор.
-    void printArray(const vector<double>& vec);
-
     // Проверка вычисления факториала
     void testFactorial();
     // Проверка вычислений ряда

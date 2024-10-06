@@ -151,22 +151,6 @@ namespace ArrayOperations {
         }
     }
 
-    // Функция для вывода массива на экран. Входные данные: массив, длина массива.
-    void printArray(double* arr, size_t n) {
-        for (int i = 0; i <= n - 1; ++i) {
-            cout << arr[i] << " ";
-        }
-        cout << endl;
-    }
-
-    // Функция для вывода массива на экран. Входные данные: вектор.
-    void printArray(const vector<double>& vec) {
-        for (double val : vec) {
-            cout << val << " ";
-        }
-        cout << endl;
-    }
-
     // ФУНКЦИИ ТЕСТОВ
 
     // Проверка вычисления факториала
