@@ -36,8 +36,10 @@ void printHelp() {
 // Главная функция программы
 int main(int argc, char* argv[]) {
 
+    // Запуск тестов
     runAllTests();
 
+    // Смена кодировки вывода терминала
     SetConsoleOutputCP(CP_UTF8);
 
     double* arr = nullptr;
