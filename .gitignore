@@ -1,0 +1,9 @@
+build/
+.vscode/
+Libraries/
+Summary/
+*.txt
+!CMakeLists.txt
+*.bin
+*.obj
+*.exe
